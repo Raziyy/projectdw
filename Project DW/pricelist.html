@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Packages</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-gray-100">
+  
+    <header class="bg-white shadow-md sticky top-0 z-50">
+      <div class="container mx-auto flex items-center justify-between p-4">
+        <!-- Brand -->
+        <h1 class="text-yellow-500 font-bold text-3xl tracking-wide">
+          <a href="index.html" class="hover:text-yellow-600 transition">DWEED'S</a>
+        </h1>
+        <!-- Navigation for Desktop -->
+        <nav class="hidden lg:flex">
+          <ul class="flex space-x-8 text-black text-lg font-medium">
+            <li>
+              <a href="about.html" class="hover:text-yellow-500 hover:scale-110 transition-transform">About Me</a>
+            </li>
+            <li>
+              <a href="pricelist.html" class="hover:text-yellow-500 hover:scale-110 transition-transform">Pricelist</a>
+            </li>
+            <li>
+              <a href="gallery.html" class="hover:text-yellow-500 hover:scale-110 transition-transform">Gallery</a>
+            </li> 
+          </ul>
+        </nav>
+        <!-- Hamburger Icon for Mobile -->
+        <div class="lg:hidden flex items-center">
+          <button onclick="toggleMenu()" class="text-black">
+            <i class="fas fa-bars fa-2x"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+  
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="lg:hidden hidden bg-white shadow-md">
+      <ul class="flex flex-col items-center p-4 space-y-4">
+        <li>
+          <a href="about.html" class="text-lg text-black hover:text-yellow-500">About Me</a>
+        </li>
+        <li>
+          <a href="pricelist.html" class="text-lg text-black hover:text-yellow-500">Pricelist</a>
+        </li>
+        <li>
+          <a href="gallery.html" class="text-lg text-black hover:text-yellow-500">Gallery</a>
+        </li> 
+      </ul>
+    </div>
+
+  <!-- Wedding Packages Section (Content) -->
+  <div class="container mx-auto py-16 px-6">
+    <header class="text-center mb-12">
+        <h1 class="text-4xl font-extrabold text-gray-800">Wedding Packages</h1>
+        <p class="text-gray-500 mt-2">Pilihlah sesuai kebutuhan anda.</p>
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Silver Package -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img class="w-full h-48 object-cover" src="/asset/foto/foto9.jpeg" alt="Silver Package">
+            <div class="p-6">
+                <h2 class="text-2xl font-semibold text-gray-800">Silver Package</h2>
+                <p class="text-gray-600 mt-4">Sangat bagus untuk acara pernikahan yang didatangi oleh Keluarga & Kerabat.</p>
+                <ul class="text-gray-700 mt-4 space-y-2">
+                    <li>&#8226; Dressing untuk mempelai laki-laki & perempuan</li>
+                    <li>&#8226; Professional Make-Up</li>
+                    <li>&#8226; Gratis penggunaan acara hingga 7 jam</li>
+                    <li>&#8226; Catering untuk 50-100 orang</li>
+                    <li>&#8226; Gratis Professional Photographer</li>
+                </ul>
+                <a 
+                    href="https://wa.me/62895622106205?text=Halo%20kak,%20aku%20mau%20tanya-tanya%20tentang%20paket%20yang%20Silver%20Package%20dengan%20harga%20Rp%2045.000.000%20dong." 
+                    target="_blank" 
+                    class="mt-6 bg-yellow-500 text-white py-2 px-4 rounded-lg hover:bg-yellow-600 inline-block text-center">
+                    Rp 45.000.000
+                </a>
+            </div>
+        </div>
+
+        <!-- Gold Package -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img class="w-full h-48 object-cover" src="/asset/foto/foto8.jpeg" alt="Gold Package">
+            <div class="p-6">
+                <h2 class="text-2xl font-semibold text-gray-800">Gold Package</h2>
+                <p class="text-gray-600 mt-4">Cocok untuk acara yang dihadiri banyak orang.</p>
+                <ul class="text-gray-700 mt-4 space-y-2">
+                    <li>&#8226; Dressing untuk mempelai laki-laki & perempuan</li>
+                    <li>&#8226; Professional Make-Up</li>
+                    <li>&#8226; Gratis penggunaan acara hingga 10 jam</li>
+                    <li>&#8226; Catering untuk 250-400 orang</li>
+                    <li>&#8226; Gratis Professional Photographer</li>
+                    <li>&#8226; Live Music & MC</li>
+                </ul>
+                <a 
+                    href="https://wa.me/62895622106205?text=Halo%20kak,%20aku%20mau%20tanya-tanya%20tentang%20paket%20yang%20Gold%20Package%20dengan%20harga%20Rp%2060.000.000%20dong." 
+                    target="_blank" 
+                    class="mt-6 bg-yellow-500 text-white py-2 px-4 rounded-lg hover:bg-yellow-600 inline-block text-center">
+                    Rp 60.000.000
+                </a>
+            </div>
+        </div>
+
+        <!-- Platinum Package -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img class="w-full h-48 object-cover" src="/asset/foto/foto7.jpeg" alt="Platinum Package">
+            <div class="p-6">
+                <h2 class="text-2xl font-semibold text-gray-800">Platinum Package</h2>
+                <p class="text-gray-600 mt-4">Paket mewah untuk pernikahan Anda, dapatkan di sini!</p>
+                <ul class="text-gray-700 mt-4 space-y-2">
+                    <li>&#8226; Dressing untuk mempelai laki-laki & perempuan</li>
+                    <li>&#8226; Professional Make-Up</li>
+                    <li>&#8226; Gratis penggunaan acara hingga 24 jam</li>
+                    <li>&#8226; Catering untuk 500-1000 orang</li>
+                    <li>&#8226; Gratis Professional Photographer</li>
+                    <li>&#8226; Live Music & MC</li>
+                    <li>&#8226; Live Youtube & Free Souvenir</li>
+                    <li>&#8226; Wedding Cakes</li>
+                </ul>
+                <a 
+                    href="https://wa.me/62895622106205?text=Halo%20kak,%20aku%20mau%20tanya-tanya%20tentang%20paket%20yang%20Platinum%20Package%20dengan%20harga%20Rp%20100.000.000%20dong." 
+                    target="_blank" 
+                    class="mt-6 bg-yellow-500 text-white py-2 px-4 rounded-lg hover:bg-yellow-600 inline-block text-center">
+                    Rp 100.000.000
+                </a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/0895622106205" target="_blank" class="whatsapp-button">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-br from-pink-100 via-pink-50 to-white text-gray-700 py-16">
+    <div class="container mx-auto px-6">
+      <!-- Header Footer -->
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-extrabold text-pink-600 tracking-wide">Tentang Kami</h2>
+        <p class="text-gray-500 mt-2">Semua detail penting untuk pernikahan impian Anda</p>
+        <div class="w-32 h-1 mx-auto mt-4 bg-pink-300 rounded-full"></div>
+      </div>
+  
+      <!-- Content Section -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-8 items-start">
+        <!-- Jadwal Buka -->
+        <div class="space-y-6 px-6 flex flex-col items-center">
+          <h3 class="text-xl font-semibold text-pink-600 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-6 18h4m2 0h2a2 2 0 002-2v-5H4v5a2 2 0 002 2h2m6-18H9m0 0h6m0 0v4m0 0H9" />
+            </svg>
+            Jadwal Buka
+          </h3>
+          <ul class="text-gray-600 space-y-3">
+            <li class="flex items-center">
+              <span class="inline-block w-6 h-6 bg-pink-200 rounded-full mr-3 flex justify-center items-center text-pink-500">M</span>
+              Senin: <span class="text-gray-800 font-bold ml-2">09.00 - 18.00</span>
+            </li>
+            <li class="flex items-center">
+              <span class="inline-block w-6 h-6 bg-pink-200 rounded-full mr-3 flex justify-center items-center text-pink-500">T</span>
+              Selasa: <span class="text-gray-800 font-bold ml-2">09.00 - 18.00</span>
+            </li>
+            <li class="flex items-center">
+              <span class="inline-block w-6 h-6 bg-pink-200 rounded-full mr-3 flex justify-center items-center text-pink-500">W</span>
+              Rabu: <span class="text-gray-800 font-bold ml-2">09.00 - 18.00</span>
+            </li>
+            <li class="flex items-center">
+              <span class="inline-block w-6 h-6 bg-pink-200 rounded-full mr-3 flex justify-center items-center text-pink-500">T</span>
+              Kamis: <span class="text-gray-800 font-bold ml-2">09.00 - 18.00</span>
+            </li>
+            <li class="flex items-center">
+              <span class="inline-block w-6 h-6 bg-pink-200 rounded-full mr-3 flex justify-center items-center text-pink-500">F</span>
+              Jumat: <span class="text-gray-800 font-bold ml-2">09.00 - 18.00</span>
+            </li>
+            <li class="flex items-center">
+              <span class="inline-block w-6 h-6 bg-pink-200 rounded-full mr-3 flex justify-center items-center text-pink-500">S</span>
+              Sabtu: <span class="text-gray-800 font-bold ml-2">10.00 - 18.00</span>
+            </li>
+            <li class="flex items-center">
+              <span class="inline-block w-6 h-6 bg-pink-200 rounded-full mr-3 flex justify-center items-center text-pink-500">S</span>
+              Minggu: <span class="text-gray-800 font-bold ml-2">10.00 - 16.00</span>
+            </li>
+          </ul>
+        </div>
+  
+        <!-- Jam Hari Ini -->
+        <div class="space-y-6 px-6 flex flex-col items-center">
+          <h3 class="text-xl font-semibold text-pink-600 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m5-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Jam Hari Ini
+          </h3>
+          <div id="digital-clock" class="text-4xl font-extrabold text-pink-500"></div>
+          <p class="text-gray-600 text-sm">Waktu terkini sesuai lokasi Kami</p>
+        </div>
+  
+        <!-- Google Maps -->
+        <div class="space-y-6 px-6 flex flex-col items-center">
+          <h3 class="text-xl font-semibold text-pink-600 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+            Lokasi Kami
+          </h3>
+          <iframe 
+            class="w-full lg:w-[400px] xl:w-[450px] h-60 lg:h-64 xl:h-72 rounded-lg shadow-lg border border-pink-300"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253786.77277551728!2d106.54486058671873!3d-6.339828699999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec332d15aa03%3A0x2c7b90ada04a1b0a!2sUniversitas%20Pancasila!5e0!3m2!1sid!2sid!4v1733761231093!5m2!1sid!2sid"
+            allowfullscreen=""
+            loading="lazy" 
+            draggable="true">
+          </iframe>
+        </div>
+      </div>
+  
+      <!-- Footer Bottom -->
+      <div class="mt-12 text-center text-gray-500 text-sm border-t border-gray-300 pt-6">
+        <p>&copy; 2024 <span class="font-bold text-pink-500">Dweed's</span>. Dibuat dengan cinta untuk hari istimewa Anda.</p>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>

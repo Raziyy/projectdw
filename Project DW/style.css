@@ -1,0 +1,123 @@
+
+/* Review Komen */
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ef4444; /* Merah untuk tombol navigasi */
+}
+.swiper-pagination-bullet {
+  background-color: #ef4444;
+  opacity: 1;
+}
+
+.text-yellow-400 i {
+  font-size: 1rem;
+}
+
+/* Kontainer review */
+.review-swiper {
+  max-width: 1200px; /* Batas lebar maksimum */
+  margin: 0 auto; /* Pusatkan di tengah */
+  padding: 0 20px; /* Tambahkan padding kiri dan kanan */
+}
+
+/* Tombol navigasi */
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%; /* Sejajarkan secara vertikal */
+  transform: translateY(-50%); /* Sejajarkan dengan benar */
+  z-index: 10;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ef4444; /* Warna merah */
+  background: white; /* Tambahkan latar belakang untuk visibilitas */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-button-prev {
+  left: -20px; /* Jarak dari sisi kiri */
+}
+
+.swiper-button-next {
+  right: -20px; /* Jarak dari sisi kanan */
+}
+
+/* Pagination bullets */
+.swiper-pagination-bullet {
+  background-color: #ef4444;
+  opacity: 1;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 640px) {
+  .swiper-button-prev {
+    left: -10px;
+  }
+
+  .swiper-button-next {
+    right: -10px;
+  }
+
+  .review-swiper {
+    padding: 0 10px; /* Kurangi padding untuk layar kecil */
+  }
+}
+
+/*carosel gambar*/
+/* Atur ukuran maksimum kontainer */
+.navbar-swiper {
+  max-width: 20000px; /* Batas maksimal lebar carousel */
+  height: auto; /* Pastikan tinggi menyesuaikan */
+  margin: 0 auto; /* Tengah di layar */
+}
+
+/* Batasi tinggi gambar */
+.navbar-swiper img {
+  max-height: 720px; /* Batasi tinggi gambar */
+  object-fit: cover; /* Gambar di-crop agar pas */
+  border-radius: 8px; /* Opsional: Tambahkan border-radius */
+}
+
+
+/* WhatsApp Button Styling */
+.whatsapp-button {
+  position: fixed; /* Tetap di posisi layar */
+  bottom: 20px; /* Jarak dari bawah layar */
+  right: 20px; /* Jarak dari kanan layar */
+  width: 80px; /* Ukuran tombol */
+  height: 80px;
+  background-color: #25d366; /* Warna hijau khas WhatsApp */
+  color: white; /* Warna ikon */
+  border-radius: 50%; /* Bentuk lingkaran */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan tombol */
+  display: flex; /* Pusatkan ikon */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Pastikan di atas elemen lain */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.whatsapp-button:hover {
+  transform: scale(1.1); /* Perbesar tombol sedikit */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Tambahkan bayangan */
+}
+
+/* Ikon */
+.whatsapp-button i {
+  font-size: 28px; /* Ukuran ikon */
+}
