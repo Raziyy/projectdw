@@ -60,6 +60,8 @@ Halaman Utama
 
 
 *Tampilan Smartphoe (Device Iphone XR)*
+![WhatsApp Image 2025-01-06 at 21 50 27](https://github.com/user-attachments/assets/092558e1-e91c-43fc-9fb9-8ba9b3098cfa)
+
 
 
 ![image](https://github.com/user-attachments/assets/5daeb9dc-5d2a-462c-8153-2d587f462bdc)
