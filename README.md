@@ -13,8 +13,8 @@
 
 - *Jobdesk*     :
   * Raziy - Membuat Website, Konsep Website, Developing Website
-  * Andhika - Membuat Laporan dan Dokumentasi
-  * Andi Ode Larios - Membuat Laporan dan Dokumentasi
+  * Andhika - Membuat Laporan dan dokumentasi
+  * Andi Ode Larios - Membuat Laporan dan dokumentasi
   * Mufti Fazli - Mockup dan Wireframe
   * Randi Dhirgam - 
 
